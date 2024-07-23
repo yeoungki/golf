@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>카메라 표시하기</title>
+    </head>
+    <body>
+        <h1>카메라 웹스트리밍</h1>
+        <!-- img src="{{ url_for('camera.video_feed') }}" width="640" height="480" / -->
+        <img src="{{ url_for('camera.video_stream') }}" alt="Camera Stream">
+    </body>
+</html>
